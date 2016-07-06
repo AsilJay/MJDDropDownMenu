@@ -37,7 +37,7 @@ when the menu comes out or dismiss.
 
  * Implement the responding method of a button, or whatever subclass of an UIResponder, by which the menu comes out.
 
-   ```objc
+ ```objc
    - (IBAction)showMenu:(id)sender {
       if (self.menu.isMenuVisible) {
           [self.menu hide];
@@ -50,7 +50,7 @@ when the menu comes out or dismiss.
  
  * Implement the delegate method to respond to the items' action.
 
-   ```objc
+ ```objc
    #pragma mark - ***** MJDDropDownMenuDelegate *****
    - (void)dropDownMenu:(MJDDropDownMenu *)menu clickedBtn:(UIButton *)btn{
           NSLog(@"clicked menuButton - %ld",btn.tag);
@@ -58,7 +58,7 @@ when the menu comes out or dismiss.
  ```
       
       
-   * ##Contact
+* ##Contact
     * Tel: 189-9414-1036
     * E-mail: 894318488@qq.com  /  shine_tingyv@163.com
 
